@@ -1,0 +1,32 @@
+Tragamonedas de Casino en Java con Hilos e Interfaz Gráfica
+
+*Descripción:*
+
+Este juego simula una máquina tragamonedas clásica de casino, utilizando el lenguaje de programación Java. Para ofrecer una experiencia de usuario atractiva e interactiva, se implementa una interfaz gráfica que permite al jugador visualizar los rodillos, los botones de control y los resultados de cada tirada. 
+
+*Características principales:*
+
+* *Interfaz gráfica:* El juego presenta una interfaz gráfica atractiva y fácil de usar, diseñada con componentes de Java Swing. Esto permite al jugador interactuar con la máquina tragamonedas de manera intuitiva.
+* *Simulación de rodillos:* Los rodillos de la máquina tragamonedas se simulan mediante imágenes que rotan aleatoriamente. Se utiliza un algoritmo de generación de números aleatorios para determinar los símbolos que se detendrán en cada tirada.
+* *Hilos:* La simulación de la rotación de los rodillos se implementa utilizando hilos de ejecución en Java. Esto permite que la interfaz gráfica y la lógica del juego se ejecuten simultáneamente, creando una experiencia de usuario fluida y receptiva.
+* *Líneas de pago:* El juego incluye varias líneas de pago, lo que aumenta las posibilidades de ganar del jugador. Las combinaciones ganadoras se determinan en función de los símbolos que se alinean en las líneas de pago activas.
+* *Créditos:* El jugador cuenta con un número inicial de créditos para realizar sus apuestas. Cada tirada consume una cierta cantidad de créditos, y el jugador puede obtener más créditos ganando en las tiradas.
+* *Sonidos:* El juego incorpora efectos de sonido para mejorar la experiencia del usuario. Se reproducen sonidos al iniciar la tirada, al detenerse los rodillos y al obtener una combinación ganadora.
+
+*Arquitectura del juego:*
+
+El juego se compone de las siguientes clases principales:
+
+* *VentanaPrincipal:* Esta clase crea y configura la interfaz gráfica del juego, incluyendo los componentes visuales y los botones de control.
+* *PanelRodillos:* Este panel muestra los rodillos de la máquina tragamonedas y se encarga de animar su rotación.
+* *SimuladorRodillos:* Esta clase simula la rotación de los rodillos y determina los símbolos que se detendrán en cada tirada.
+* *ControladorJuego:* Esta clase controla el flujo del juego, procesa las apuestas del jugador, evalúa las combinaciones ganadoras y actualiza el saldo de créditos.
+* *HiloRodillos:* Este hilo se encarga de ejecutar la simulación de la rotación de los rodillos de forma asíncrona.
+
+*Conclusión:*
+
+Este juego de tragamonedas de casino en Java demuestra la aplicación de conceptos de programación orientada a objetos, hilos de ejecución e interfaces gráficas para crear una experiencia de juego entretenida e interactiva. 
+
+*Consideraciones adicionales:*
+
+* El juego se puede ampliar para incluir diferentes tipos de apuestas, bonos y símbolos especiales.
